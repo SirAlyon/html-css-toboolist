@@ -1,15 +1,22 @@
 
-
+header{
+  
+}
 
 /* Inizio Header */
+.logo{
+    height: 100%;
 
+}
 .logoimg{
-    width: 100px;
+    width: 80px;
     vertical-align: middle;
 }
 
 .logotext{
     font-size: 3rem;
+    font-weight: bold;
+    vertical-align: middle;
 }
 /* Inizio Main */
 
