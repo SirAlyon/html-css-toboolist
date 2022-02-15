@@ -2,6 +2,10 @@
 header{
   
 }
+body{
+    border-b
+}
+
 
 /* Inizio Header */
 .logo{
@@ -20,6 +24,43 @@ header{
 }
 /* Inizio Main */
 
+/* Header Main */
+#site_main{
+    height: 100vh;
+    background-color: rgba(246, 248, 249, 1);
+}
 
+.main_header{
+    width: 1000px;
+    height: 70px;
+    background-color: rgba(255, 255, 255, 1);
+    margin: auto;
+}
+
+
+
+.task{
+    background-color: rgba(20, 170, 245, 1);
+    color: white;
+    padding: 10px 10px 10px 10px;
+    vertical-align: middle; 
+    
+}
+
+
+.selection{
+    color: lightgray;
+    border: 1px solid lightgray;
+    padding: 7px 7px 7px 7px;
+
+}
+
+/* Main Main */
+
+.main_main{
+    width: 1000px;
+    background-color: rgba(255, 255, 255, 1);
+    margin: auto;
+}
 
 /* Inizio Footer */
