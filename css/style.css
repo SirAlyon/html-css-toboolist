@@ -1,6 +1,8 @@
 body{
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    background-color: rgba(246, 248, 249, 1);
+    margin: 0;
 }
 h2{
     margin-bottom: 10px;
@@ -58,6 +60,10 @@ h2{
 
 /* Inizio Header */
 
+header {
+    background-color: white;
+}
+
 .logoimg{
     width: 80px;
     vertical-align: middle;
@@ -78,10 +84,8 @@ h2{
 }
 
 #site_main{
-    height: 100vh;
     background-color: rgba(246, 248, 249, 1);
     padding-top: 20px;
-    
 }
 
 .main_header{
@@ -128,22 +132,33 @@ h2{
 
 .boxes{
     
-    padding: 4px 7px 4px 7px;
+    /* padding: 4px 7px 4px 7px; */
+    padding: 3px 10px;
     border-radius: 10px;
     font-size: 0.7rem;
     display: inline-block;
     color: white;
+    margin-left: 8px;
 }
 
 .flag{
     display: inline-block;
     border-radius: 50%;
-    height: 12px;
-    width: 12px;
-    line-height: 12px;
+    height: 15px;
+    width: 15px;
+    line-height: 15px;
+    font-size: 14px;
     text-align: center;
-    padding: 1px;
+    padding: 2px;
+    margin-right: 5px;
     
 }
 
 /* Inizio Footer */
+
+#site_footer{
+    background-color: rgba(246, 248, 249, 1);
+    text-align: center;
+    margin-top: 20px;
+
+}
