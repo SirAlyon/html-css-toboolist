@@ -1,6 +1,21 @@
+:root{
+    --blue: rgba(20, 170, 245, 1);
+    --purple: rgba(171, 93, 230, 1);
+    --green: rgba(44, 198, 171, 1);
+    --orange: rgba(255, 155, 0, 1);
+    --pink: rgba(236, 74, 157, 1);
+    --lightgreen: rgba(163, 209, 22, 1);
+    --lightyellow: rgba(251, 242, 165, 1);
+    --lightred: rgba(255, 104, 104, 1);
+    --green2: rgba(44, 198, 171, 1);
+    
+}
+
 body{
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
+    margin: 0;
+    
 }
 h2{
     margin-bottom: 10px;
@@ -22,43 +37,47 @@ h2{
 }
 
 .flagred{
-    border: 1px solid rgba(255, 104, 104, 1);
-    color: rgba(255, 104, 104, 1);
+    border: 1px solid var(--lightred);
+    color: var(--lightred);
 }
 
 .flaggreen{
-    border: 1px solid rgba(44, 198, 171, 1);
-    color: rgba(44, 198, 171, 1);
+    border: 1px solid var(--green2);
+    color: var(--green2);
 }
 
 .boxescolor1{
-    background-color: rgba(20, 170, 245, 1);
+    background-color: var(--blue);
 }
 
 .boxescolor2{
-    background-color: rgba(171, 93, 230, 1);
+    background-color: var(--purple);
 }
 
 .boxescolor3{
-    background-color: rgba(44, 198, 171, 1);
+    background-color: var(--green);
 }
 
 .boxescolor4{
-    background-color: rgba(255, 155, 0, 1);
+    background-color: var(--orange);
 }
 
 .boxescolor5{
-    background-color: rgba(236, 74, 157, 1);
+    background-color: var(--pink);
 }
 
 .boxescolor6{
-    background-color: rgba(163, 209, 22, 1);
+    background-color: var(--lightgreen);
 }
 
 
 /* Inizio Header */
+#site_header{
+    background-color: var(--lightyellow); 
+} 
 
-.logoimg{
+/* Se l'immagine avesse sfondo trasparente tutto l'header avrebbe lo sfondo corretto. */
+.logoimg{  
     width: 80px;
     vertical-align: middle;
 }
@@ -88,7 +107,7 @@ h2{
     width: 1000px;
     padding-top: 15px;
     padding-bottom: 15px;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: var(--lightyellow);
     margin: auto;
 }
 
@@ -118,7 +137,7 @@ h2{
 
 .main_main{
     width: 1000px;
-    background-color: rgba(255, 255, 255, 1);
+    background-color: var(--lightyellow);
     margin: auto;
 }
 .title{
