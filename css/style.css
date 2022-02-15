@@ -1,12 +1,10 @@
 body{
     box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
-
 h2{
-    margin-bottom: 3px;
-    margin-top: 10px;
+    
 }
-
 /* Utility classes */
 
 .space{
@@ -15,7 +13,7 @@ h2{
 }
 
 .spacetop{
-    padding-top: 10px;
+    padding-top: 20px;
 
 }
 
@@ -24,14 +22,39 @@ h2{
 }
 
 .flagred{
-    border: 1px solid red;
-    color: red;
+    border: 1px solid rgba(255, 104, 104, 1);
+    color: rgba(255, 104, 104, 1);
 }
 
 .flaggreen{
-    border: 1px solid green;
-    color: green;
+    border: 1px solid rgba(44, 198, 171, 1);
+    color: rgba(44, 198, 171, 1);
 }
+
+.boxescolor1{
+    background-color: rgba(20, 170, 245, 1);
+}
+
+.boxescolor2{
+    background-color: rgba(171, 93, 230, 1);
+}
+
+.boxescolor3{
+    background-color: rgba(44, 198, 171, 1);
+}
+
+.boxescolor4{
+    background-color: rgba(255, 155, 0, 1);
+}
+
+.boxescolor5{
+    background-color: rgba(236, 74, 157, 1);
+}
+
+.boxescolor6{
+    background-color: rgba(163, 209, 22, 1);
+}
+
 
 /* Inizio Header */
 .logo{
@@ -53,10 +76,14 @@ h2{
 
 /* Header Main */
 
+#firsth2{
+    margin-top: 10px;
+}
+
 #site_main{
     height: 100vh;
     background-color: rgba(246, 248, 249, 1);
-    padding-top: 30px;
+    padding-top: 20px;
     
 }
 
@@ -68,14 +95,14 @@ h2{
     margin: auto;
 }
 
-.add{
+.addcontainer{
     padding-left: 60px;
 }
 
 .task{
     background-color: rgba(20, 170, 245, 1);
     color: white;
-    padding: 7px;
+    padding: 5px 7px 5px 7px;
     display: inline-block;
     border-radius: 4px;
     
@@ -84,7 +111,7 @@ h2{
 .selection{
     color: lightgray;
     border: 1px solid lightgray;
-    padding: 7px;
+    padding: 5px 7px 5px 7px;
     display: inline-block;
     border-radius: 4px;
 
@@ -103,20 +130,23 @@ h2{
 
 
 .boxes{
-    background-color: red;
+    
     padding: 4px 7px 4px 7px;
     border-radius: 10px;
     font-size: 0.7rem;
     display: inline-block;
+    color: white;
 }
 
 .flag{
     display: inline-block;
     border-radius: 50%;
-    height: 16px;
-    width: 16px;
-    line-height: 16px;
+    height: 12px;
+    width: 12px;
+    line-height: 12px;
     text-align: center;
+    padding: 1px;
+    
 }
 
 /* Inizio Footer */
