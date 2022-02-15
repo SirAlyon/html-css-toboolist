@@ -3,12 +3,12 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 h2{
-    
+    margin-bottom: 10px;
 }
+
 /* Utility classes */
 
 .space{
-    
     padding-left: 10px;
 }
 
