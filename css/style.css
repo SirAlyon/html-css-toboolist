@@ -1,11 +1,6 @@
-
-header{
-  
-}
 body{
-    border-b
+    box-sizing: border-box;
 }
-
 
 /* Inizio Header */
 .logo{
@@ -21,6 +16,7 @@ body{
     font-size: 3rem;
     font-weight: bold;
     vertical-align: middle;
+    display: inline-block;
 }
 /* Inizio Main */
 
@@ -61,6 +57,14 @@ body{
     width: 1000px;
     background-color: rgba(255, 255, 255, 1);
     margin: auto;
+}
+
+.boxes{
+    background-color: red;
+    padding: 4px 7px 4px 7px;
+    border-radius: 10px;
+
+    display: inline-block;
 }
 
 /* Inizio Footer */
