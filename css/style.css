@@ -2,6 +2,37 @@ body{
     box-sizing: border-box;
 }
 
+h2{
+    margin-bottom: 3px;
+    margin-top: 10px;
+}
+
+/* Utility classes */
+
+.space{
+    
+    padding-left: 10px;
+}
+
+.spacetop{
+    padding-top: 10px;
+
+}
+
+.spacebot{
+    padding-bottom: 20px;
+}
+
+.flagred{
+    border: 1px solid red;
+    color: red;
+}
+
+.flaggreen{
+    border: 1px solid green;
+    color: green;
+}
+
 /* Inizio Header */
 .logo{
     height: 100%;
@@ -21,33 +52,41 @@ body{
 /* Inizio Main */
 
 /* Header Main */
+
 #site_main{
     height: 100vh;
     background-color: rgba(246, 248, 249, 1);
+    padding-top: 30px;
+    
 }
 
 .main_header{
     width: 1000px;
-    height: 70px;
+    padding-top: 15px;
+    padding-bottom: 15px;
     background-color: rgba(255, 255, 255, 1);
     margin: auto;
 }
 
-
+.add{
+    padding-left: 60px;
+}
 
 .task{
     background-color: rgba(20, 170, 245, 1);
     color: white;
-    padding: 10px 10px 10px 10px;
-    vertical-align: middle; 
+    padding: 7px;
+    display: inline-block;
+    border-radius: 4px;
     
 }
-
 
 .selection{
     color: lightgray;
     border: 1px solid lightgray;
-    padding: 7px 7px 7px 7px;
+    padding: 7px;
+    display: inline-block;
+    border-radius: 4px;
 
 }
 
@@ -58,13 +97,26 @@ body{
     background-color: rgba(255, 255, 255, 1);
     margin: auto;
 }
+.title{
+    padding-left: 50px;
+}
+
 
 .boxes{
     background-color: red;
     padding: 4px 7px 4px 7px;
     border-radius: 10px;
-
+    font-size: 0.7rem;
     display: inline-block;
+}
+
+.flag{
+    display: inline-block;
+    border-radius: 50%;
+    height: 16px;
+    width: 16px;
+    line-height: 16px;
+    text-align: center;
 }
 
 /* Inizio Footer */
